@@ -21,4 +21,4 @@
 ### Варіант 1. Стандартний запуск (Google & Cloudflare)
 Перевірка зв'язку за дефолтними резервними хостами (`8.8.4.4` та `1.0.0.1`):
 ```powershell
-irm [https://osp.pp.ua/ping](https://osp.pp.ua/ping) | iex
+irm https://osp.pp.ua/ping | iex
